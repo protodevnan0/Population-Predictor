@@ -19,6 +19,10 @@ if (country_input == "ireland"):
   result = ireland_2016 + ireland_stat * year_difference
   print ("  " + str(result) + " million people in Ireland");
   print ("");
+elif (country_input == "apocalypse"):
+  print ("");
+  print ("  In 2020 there will be ");
+  print ("  0 people on earth");
 else:
   print ("");
   print ("  Unsupported Country!");
